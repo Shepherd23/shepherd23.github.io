@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="false" exportTarget="other" domain="shepherd.gq" resolutions="1x" timestamp="1506631698938">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="false" exportTarget="other" domain="shepherd.gq" resolutions="1x" timestamp="1506631843935">
   <folder name="css">
     <file name="site_global.css" crc="11580411"/>
-    <file name="master_main.css" crc="3792219765" ref="index"/>
-    <file name="index.css" crc="4198714611" ref="index"/>
+    <file name="master_main.css" crc="407046633" ref="index"/>
+    <file name="index.css" crc="113891341" ref="index"/>
     <file name="iefonts_index.css" crc="99437028" ref="index"/>
     <file name="master_white.css" crc="4189280473" ref="бисмарк"/>
     <file name="_______.css" crc="9751241" ref="бисмарк"/>
@@ -22,6 +22,6 @@
       <caption webpage="бисмарк" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="389678382" seo="true" mt="1506630433936" redirect="true"/>
+  <file name="index.html" crc="220355953" seo="true" mt="1506631836565" redirect="true"/>
   <file name="бисмарк.html" crc="382322670" seo="true" mt="1506631683189" redirect="true"/>
 </manifest>

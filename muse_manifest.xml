@@ -1,21 +1,27 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="false" exportTarget="other" domain="shepherd.gq" resolutions="1x" timestamp="1506629565017">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="false" exportTarget="other" domain="shepherd.gq" resolutions="1x" timestamp="1506630521183">
   <folder name="css">
     <file name="site_global.css" crc="11580411"/>
-    <file name="master_main.css" crc="407046633" ref="index"/>
-    <file name="index.css" crc="113891341" ref="index"/>
+    <file name="master_main.css" crc="3792219765" ref="index"/>
+    <file name="index.css" crc="4198714611" ref="index"/>
     <file name="iefonts_index.css" crc="99437028" ref="index"/>
+    <file name="master_white.css" crc="181120071" ref="бисмарк"/>
+    <file name="_______.css" crc="267281568" ref="бисмарк"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="4232573551" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="3849126041" ref="index"/>
-    <file name="jquery.watch.js" crc="3844535323" ref="index"/>
-    <file name="require.js" crc="4234670167" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:бисмарк"/>
+    <file name="museutils.js" crc="4232573551" ref="index:бисмарк"/>
+    <file name="whatinput.js" crc="86476730" ref="index:бисмарк"/>
+    <file name="museconfig.js" crc="3849126041" ref="index:бисмарк"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:бисмарк"/>
+    <file name="require.js" crc="4234670167" ref="index:бисмарк"/>
   </folder>
   <folder name="images">
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="u103-4.png" crc="4002952688" ref="index"/>
+    <file name="вставленное изображение 600x400.jpg" crc="3799915261" seo="true" ref="бисмарк">
+      <caption webpage="бисмарк" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="220355953" seo="true" mt="1506629369070" redirect="true"/>
+  <file name="index.html" crc="389678382" seo="true" mt="1506630433936" redirect="true"/>
+  <file name="бисмарк.html" crc="3952494083" seo="true" mt="1506630477138" redirect="true"/>
 </manifest>

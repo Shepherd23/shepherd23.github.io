@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebDudes</title>
+</head>
+<script>
+    var audio = new Audio(); 
+    audio.src = 'snd/frog.wav';
+
+    function MouseDown(){ 
+        document.getElementById("frog_img").src="img/2.bmp";
+        audio.play();
+    }
+    function MouseUp(){
+        document.getElementById("frog_img").src="img/1.bmp";
+        audio.pause();
+        audio.currentTime = 0.0;
+    }
+</script>
+<body style="text-align:center; background-color: #f0f0f0">
+    <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">WebDudes</h1>
+    <audio src="snd/wend.wav" autoplay="autoplay"></audio>
+    <div class="frog">
+        <img onmousedown="MouseDown()" onmouseup="MouseUp()" id="frog_img" src="img/1.bmp" alt="DudeFrog">
+    </div>
+</body>
+</html>

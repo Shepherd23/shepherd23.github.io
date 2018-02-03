@@ -13,6 +13,8 @@
         <img onmousedown="Down()" onmouseup="Up()" id="frog_img" src="img/1.bmp" width="310" height="310" alt="DudeFrog">
     </div>
     <script>
+        document.getElementById('frog_img').ondragstart = function() { return false; };
+
         var el = document.getElementById("frog_img"); 
         var audio = new Audio(); 
         audio.src = 'snd/frog.wav';
